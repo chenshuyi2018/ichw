@@ -1,0 +1,52 @@
+import turtle
+wn=turtle.Screen()
+a=turtle.Pen()
+b=turtle.Pen()
+c=turtle.Pen()
+d=turtle.Pen()
+e=turtle.Pen()
+f=turtle.Pen()
+g=turtle.Pen()
+a.dot(10,"yellow")
+for i in range(1,3):
+    if i==1:
+        b.penup()
+        b.goto(0,i*20*(-1)**(i-1))
+        b.pendown()
+        b.dot(10,"red")
+        b.circle(20*i*(-1)**i)
+    else:
+        if i==2:
+            c.penup()
+            c.goto(0,i*20*(-1)**(i-1))
+            c.pendown()
+            c.dot(10,"blue")
+            c.circle(20*i*(-1)**i)
+        else:
+            if i==3:
+                d.penup()
+                d.goto(0,i*20*(-1)**(i-1))
+                d.pendown()
+                d.dot(10,"lightgreen")
+                d.circle(20*i*(-1)**i)
+            else:
+                if i==4:
+                    e.penup()
+                    e.goto(0,i*20*(-1)**(i-1))
+                    e.pendown()
+                    e.dot(10,"yellow")
+                    e.circle(20*i*(-1)**i)
+                else:
+                    if i==5:
+                        f.penup()
+                        f.goto(0,i*20*(-1)**(i-1))
+                        f.pendown()
+                        f.dot(10,"red")
+                        f.circle(20*i*(-1)**i)
+                    else:
+                        g.penup()
+                        g.goto(0,i*20*(-1)**(i-1))
+                        g.pendown()
+                        g.dot(10,"grey")
+                        g.circle(20*i*(-1)**i)
+                    
