@@ -87,4 +87,5 @@ def zongxiang(matrix,i,j):
             matrix1[x][y]=matrix1[x][y]+1
             k=x*m+y
             brick.append(k)
-    return brick,matrix1
+    return brick,matrix
+#助教，非常抱歉我最终还是没有理解您的邮件，也没有得到答案（不论怎么调试都得不到任何答案），但是我尽力了，我是认真的。
